@@ -122,7 +122,8 @@ document.addEventListener('DOMContentLoaded', function() {
                             .style('left', d3.event.pageX+15+'px')
                             .style('border-radius', '5px')
                             .style('font-weight', 'bold')
-                            .style('color','hsla(360, 64%, 89%, 1)')                            .style('padding', '5px')
+                            .style('color','hsla(360, 64%, 89%, 1)')                            
+                            .style('padding', '5px')
                             .style('background-color', 'hsla(299, 88%, 44%, 0.61)')
                             .style('visibility', 'visible')
                      tooltip.attr('data-year', d.year);
