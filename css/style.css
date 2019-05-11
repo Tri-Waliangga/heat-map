@@ -1,0 +1,13 @@
+body {
+  background: hsla(240, 9%, 82%, 0.75);
+}
+
+#chart {
+  display: grid;
+  justify-items: center;
+  margin: 5% 0;
+}
+
+.cell:hover {
+  fill: white;
+}
